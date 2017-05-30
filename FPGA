@@ -1,0 +1,72 @@
+[Course on FPGA](https://files.slack.com/files-pri/T2HQV035L-F3Z8E1DNH/download/digital_design_with_fpgas.zip)
+[Trainer Board](http://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)
+
+Introductory video to what an FPGA is: https://www.youtube.com/watch?v=gUsHwi4M4xE
+
+I was looking at neural network compression for inference, espcially on resource constrained hardware. Here’s one one 1 bit NNs: http://allenai.org/plato/xnornet/  Shared by @georgesung
+
+https://www.graphcore.ai/blog/why-is-so-much-memory-needed-for-deep-neural-networks?utm_content=45344445&utm_medium=social&utm_source=linkedin Shared by @soon_yau
+
+https://www.quora.com/Is-implementing-deep-learning-on-FPGAs-a-natural-next-step-after-the-success-with-GPUs  Shared by @kylesf
+
+Interesting article on DL-FPGA:
+https://www.nextplatform.com/2017/01/31/opencl-opens-doors-deep-learning-training-fpga/  Shared by @sarvesh
+
+Venture funds targeting embedded are certainly welcome :slightly_smiling_face:
+http://www.eetimes.com/document.asp?doc_id=1331308&page_number=1
+Shared by @sarvesh
+
+Introduction to Verilog http://vol.verilog.com/ Shared by @kylesf
+
+Good set of talks from the Embedded Neural Network Summit @ Cadence (2/1/2017):
+https://www.cadence.com/content/cadence-www/global/en_US/home/company/events/industry-events/embedded-neural-network-summit-2017.html
+Shared by @sarvesh
+
+Brief overview of the state of open source hardware (silicon), worth a look if we want to leverage some of it: https://speakerdeck.com/wallento/the-state-of-open-source-processors-and-open-source-silicon Shared by @georgesung
+
+Tensorflow-XLA rollout. It has some significance for embedded, I believe. https://www.tensorflow.org/versions/master/experimental/xla/
+Shared by @sarvesh
+
+Here’s the XLA presentation: https://youtu.be/kAOanJczHA0
+Shared by @georgesung
+
+Xilinx computer vision stack: https://www.xilinx.com/video/application/computer-vision-machine-learning-revision-stack.html Shared by @kylesf
+
+Xilinx optical flow 4K: https://www.xilinx.com/video/application/4k60-dense-optical-flow.html
+Shared by @kylesf
+
+https://www.nextplatform.com/2017/03/21/can-fpgas-beat-gpus-accelerating-next-generation-deep-learning/
+
+https://theinformationageblog.wordpress.com/2017/04/03/fpga-chips-will-be-the-hardware-future-for-deep-leaning-and-ai/ Shared by @eirik
+
+Great overview with deep-learning-specific hardware: http://eyeriss.mit.edu/tutorial.html Shared by @georgesung
+
+New Google Cloud blog post discussing the performance of their custom ASICs for machine learning (aka. TPU):
+https://cloudplatform.googleblog.com/2017/04/quantifying-the-performance-of-the-TPU-our-first-machine-learning-chip.html
+
+“15x to 30x faster than contemporary GPUs and CPUs” for inference, “30x to 80x improvement in TOPS/Watt measure” .. Shared by @adaml
+
+http://esd.cs.ucr.edu/labs/tutorial/
+learn VHDL by example! Add to your links if you think it is good
+
+ Zynq development board 
+ 
+Sandeep Datta [10:15 AM] 
+I have a z-turn board too! I also have a Numato Mimas v2: https://numato.com/mimas-v2-spartan-6-fpga-development-board-with-ddr-sdram/
+
+http://www.adapteva.com/parallella/
+
+I used the jetson-inference with cityscapes (and their own provided example images)
+https://github.com/dusty-nv/jetson-inference
+
+Yousof Ebneddin [3 days ago] 
+https://mit-racecar.github.io/
+mit-racecar.github.io
+RACECAR
+A Powerful Platform for Robotics Research and Teaching
+https://docs.google.com/spreadsheets/d/1iaOru6va1LXjhXfBtYTWhAH_3DQlvVIdpRZ0NJh-7q8/edit#gid=0
+
+This video from Xilinx gives a very good introduction to running CNNs and DNNs on an FPGA: https://www.youtube.com/watch?v=Yi80P5U2YAE
+
+
+- credits @contributors of SDCND #fpga slack channel
